@@ -19,5 +19,5 @@ function unizin_add_post_types ( $post_types) {
 }
 
 add_filter( 'pb_supported_post_types', 'unizin_add_post_types' );
-
+add_filter( 'pb_import_custom_post_types', 'unizin_add_post_types');
 ?>
